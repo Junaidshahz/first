@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+#main{
+    background-color: #F6F6EE;
+    width: 100%;
+}
+#nav{
+    background-color: #F6F6EE;
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+}
+#nav #lnav h2{
+    font-size: 30px;
+}
+#nav #lnav h2 b{
+    font-weight: 100;
+}
+#nav #rnav{
+    display: flex;
+    gap: 30px;
+}
+#nav #rnav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#center{
+    background-color: #F6F6EE;
+    margin-top: 50px;
+    font-family: voyage;
+    width: 100%;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#center h1{
+    font-size: 70px;
+    margin-left: 30%;
+    margin-bottom: 25px;
+}
+#center p{
+    margin-left: 30%;
+    width: 500px;
+    margin: auto;
+
+}
+#center button{
+    margin-top: 30px;
+    margin-left: 45%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+#photo img{
+    width: 100%;
+}
+#down{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+}
+#down #dleft{
+    width: 50%;
+    margin-top: 25px;
+    height: 250px;
+    /* background-color: blue; */
+    position: relative;
+}
+#down #dright{
+    width: 50%;
+    margin-top: 25px;
+    height: 250px;
+    /* background-color: rgb(116, 31, 116); */
+    position: relative;
+}
+#ltext{
+    width: 50%;
+    /* background-color: cadetblue; */
+    padding: 30px 30px;
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    right: 0%;
+    border-right: 3px solid black;
+
+}
+#line{
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    right: 30px;
+}
+#ltext h2{
+    padding-bottom: 10px;
+}
+#ltext p{
+    width: 350px;
+    margin: auto;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+#rtext{
+    display: flex;
+    width: 50%;
+    /* background-color: cadetblue; */
+    padding: 30px 30px;
+    position: absolute;
+    top: 15%;
+    gap: 20px;
+}
+#icon{
+    font-size: 30px;
+}
